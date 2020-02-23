@@ -17,8 +17,6 @@ The transactional data will be imported then treated as bipartite graph with pre
 The bipartite graph (B) then will be trasformed into weighted undirected graph (G) to be analysed using modified Newman Girvan
 modularity. 
 
-<p align="center">
-  <img src="graph.png">
-</p>
+![alt text](sources/graph.png)
 
 Detected communities after n-split would be considered clusters of items (StockCode) then compared with some traditional frequent itemset mining techniques. 

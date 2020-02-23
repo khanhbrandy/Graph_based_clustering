@@ -4,7 +4,7 @@ Created on 2019-08-20
 Market basket analysis using graph mining approach over transactional data
 
 # Dataset Information:
-Transactional dataset contains all the transactions of a retail company
+Transactional dataset contains transactions of a retail company in a given period.
 <i> 
 - InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
 

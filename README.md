@@ -3,19 +3,22 @@ Created on 2019-08-20
 # Graph Mining
 Market basket analysis using graph mining approach over transactional data
 
-# Data Set Information:
-Source: https://archive.ics.uci.edu/ml/datasets/online+retail
+# Dataset Information:
+Transactional dataset contains all the transactions of a retail company
+<i> 
+- InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
 
-This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
+- StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
 
+- Quantity: The quantities of each product (item) per transaction. Numeric.
+</i>
 
-# Attribute Information:
+# Graph mining techniques:
 
-InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
-StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
-Description: Product (item) name. Nominal.
-Quantity: The quantities of each product (item) per transaction. Numeric.
-InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
-UnitPrice: Unit price. Numeric, Product price per unit in sterling.
-CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
-Country: Country name. Nominal, the name of the country where each customer resides.
+The transactional data will be imported then treated as bipartite graph with pre-defined source and target
+The bipartite graph (B) then will be trasformed into weighted undirected graph (G) to be analysed using modified Newman Girvan
+modularity. 
+<p align="center">
+  <img src="sources/graph.png">
+</p>
+Detected communities after n-split would be considered clusters of items (StockCode) then compared with some traditional frequent itemset mining techniques. 

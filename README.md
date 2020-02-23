@@ -12,6 +12,7 @@ Transactional dataset contains all the transactions of a retail company
 
 - Quantity: The quantities of each product (item) per transaction. Numeric.
 </i>
+
 # Graph mining techniques:
 
 The transactional data will be imported then treated as bipartite graph with pre-defined source and target

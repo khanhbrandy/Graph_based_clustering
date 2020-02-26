@@ -21,4 +21,4 @@ modularity.
 <p align="center">
   <img src="sources/graph.png">
 </p>
-Detected communities after n splits having maximum modularity is considered optimal clusters of items (StockCode) then will be compared with the results of other traditional frequent itemset mining techniques. 
+Detected communities after n splits having maximum modularity are considered optimal clusters of items (StockCode) and will be compared with the results of other traditional frequent itemset mining techniques. 

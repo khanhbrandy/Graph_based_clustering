@@ -7,7 +7,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
-from networkx.algorithms.community.centrality import girvan_newman
 from networkx.algorithms import bipartite
 import time
 

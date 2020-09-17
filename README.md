@@ -1,7 +1,7 @@
 Created on 2019-08-20
 
 # Graph Mining
-Implement Newman-Girvan modified modularity algorithm from scratch and apply in transactional data to perform market basket analysis
+Implement Newman-Girvan modified modularity algorithm from scratch and apply in transactional data to perform frequent itemset mining.
 
 # Dataset Information:
 Transactional dataset contains transactions of a retail company in a given period.

@@ -15,7 +15,7 @@ Transactional dataset contains transactions of a retail company in a given perio
 
 # Graph mining techniques:
 
-The transactional data will be imported then treated as bipartite graph with pre-defined source and target
+The transactional data will be loaded then treated as bipartite graph with pre-defined sources and targets. 
 The bipartite graph (B) then will be trasformed into weighted undirected graph (G) to be analysed using modified Newman Girvan
 modularity. 
 <p align="center">

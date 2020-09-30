@@ -1,6 +1,6 @@
 Created on 2019-08-20
 
-# Graph Mining
+# Project description
 Implement Newman-Girvan modified modularity algorithm from scratch and apply in transactional data to perform customer clustering.
 
 # Dataset Information:

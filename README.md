@@ -1,7 +1,7 @@
 Created on 2019-08-20
 
 # Graph Mining
-Implement Newman-Girvan modified modularity algorithm from scratch and apply in transactional data to perform frequent itemset mining.
+Implement Newman-Girvan modified modularity algorithm from scratch and apply in transactional data to perform customer clustering.
 
 # Dataset Information:
 Transactional dataset contains transactions of a retail company in a given period.
@@ -21,4 +21,4 @@ modularity.
 <p align="center">
   <img src="sources/graph.png">
 </p>
-Detected communities after (n) optimal splits having maximum modularity are considered optimal clusters of items (StockCode) and will be compared with the results of other traditional frequent itemset mining techniques. 
+Detected communities after (n) optimal splits having maximum modularity are considered optimal clusters of items (StockCode) and will be compared with the results of other traditional clustering techniques. 

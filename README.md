@@ -1,7 +1,7 @@
 Created on 2019-08-20
 
 # Project description
-Implement Newman-Girvan modified modularity algorithm from scratch and apply in transactional data to perform customer clustering.
+Implement Newman-Girvan modified modularity algorithm from scratch and apply in transactional data to perform clustering.
 
 # Dataset Information
 Transactional dataset contains transactions of a retail company in a given period.
